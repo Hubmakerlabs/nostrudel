@@ -41,7 +41,7 @@ export const defaultSettings: AppSettings = {
   version: 7,
   theme: "default",
   colorMode: "system",
-  defaultRelays: ["wss://relay.damus.io", "wss://nostr.wine", "wss://nos.lol", "wss://welcome.nostr.wine"],
+  defaultRelays: ["wss://r.mleku.com"],
   maxPageWidth: "none",
   blurImages: true,
   hideUsernames: false,

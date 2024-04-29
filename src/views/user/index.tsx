@@ -92,10 +92,10 @@ const UserView = () => {
   ]);
   const hasArticles = useEventExists({ kinds: [kinds.LongFormArticle], authors: [pubkey] }, readRelays);
   const hasStreams = useEventExists({ kinds: [STREAM_KIND], authors: [pubkey] }, [
-    "wss://relay.snort.social",
-    "wss://nos.lol",
-    "wss://relay.damus.io",
-    "wss://nostr.wine",
+    // "wss://relay.snort.social",
+    // "wss://nos.lol",
+    // "wss://relay.damus.io",
+    // "wss://nostr.wine",
     ...readRelays,
   ]);
 

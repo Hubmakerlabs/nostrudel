@@ -11,16 +11,19 @@ export type RelayDirectory = Record<string, { read: boolean; write: boolean }>;
 
 export const recommendedReadRelays = new RelaySet(
   safeRelayUrls([
-    "wss://relay.damus.io/",
-    "wss://nostr.wine/",
-    "wss://relay.snort.social/",
-    "wss://nos.lol/",
-    "wss://purplerelay.com/",
-    "wss://nostr.land/",
+      "wss://r.mleku.com"
+    // "wss://relay.damus.io/",
+    // "wss://nostr.wine/",
+    // "wss://relay.snort.social/",
+    // "wss://nos.lol/",
+    // "wss://purplerelay.com/",
+    // "wss://nostr.land/",
   ]),
 );
 export const recommendedWriteRelays = new RelaySet(
-  safeRelayUrls(["wss://relay.damus.io/", "wss://nos.lol/", "wss://purplerelay.com/"]),
+  safeRelayUrls(["wss://r.mleku.com"
+      // "wss://relay.damus.io/", "wss://nos.lol/", "wss://purplerelay.com/"
+  ]),
 );
 
 class ClientRelayService {

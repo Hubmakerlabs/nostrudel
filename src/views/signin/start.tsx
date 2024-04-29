@@ -46,9 +46,9 @@ export default function LoginStartView() {
 
           if (relays.length === 0) {
             relays = safeRelayUrls([
-              "wss://relay.damus.io/",
-              "wss://relay.snort.social/",
-              "wss://nostr.wine/",
+              // "wss://relay.damus.io/",
+              // "wss://relay.snort.social/",
+              // "wss://nostr.wine/",
               COMMON_CONTACT_RELAY,
             ]);
           }
@@ -75,7 +75,9 @@ export default function LoginStartView() {
         if (!accountService.hasAccount(pubkey)) {
           let relays: string[] = [];
           if (relays.length === 0) {
-            relays = ["wss://relay.damus.io", "wss://relay.snort.social", "wss://nostr.wine", COMMON_CONTACT_RELAY];
+            relays = [
+                // "wss://relay.damus.io", "wss://relay.snort.social", "wss://nostr.wine",
+              COMMON_CONTACT_RELAY];
           }
 
           accountService.addAccount({ pubkey, relays, type: "serial", readonly: false });
@@ -97,7 +99,9 @@ export default function LoginStartView() {
       if (!accountService.hasAccount(pubkey)) {
         let relays: string[] = [];
         if (relays.length === 0) {
-          relays = ["wss://relay.damus.io", "wss://relay.snort.social", "wss://nostr.wine", COMMON_CONTACT_RELAY];
+          relays = [
+              // "wss://relay.damus.io", "wss://relay.snort.social", "wss://nostr.wine",
+            COMMON_CONTACT_RELAY];
         }
 
         accountService.addAccount({ pubkey, relays, type: "amber", readonly: false });

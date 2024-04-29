@@ -93,7 +93,9 @@ function StreamsPage() {
 export default function StreamsView() {
   return (
     <AdditionalRelayProvider
-      relays={["wss://nos.lol", "wss://relay.damus.io", "wss://relay.snort.social", "wss://nostr.wine"]}
+      relays={["wss://r.mleku.com"
+          // "wss://nos.lol", "wss://relay.damus.io", "wss://relay.snort.social", "wss://nostr.wine"
+      ]}
     >
       <PeopleListProvider>
         <StreamsPage />
