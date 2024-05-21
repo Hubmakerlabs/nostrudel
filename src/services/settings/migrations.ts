@@ -41,7 +41,7 @@ export const defaultSettings: AppSettings = {
   version: 7,
   theme: "default",
   colorMode: "system",
-  defaultRelays: ["wss://r.mleku.com"],
+  defaultRelays: ["wss://mr.mleku.net"],
   maxPageWidth: "none",
   blurImages: true,
   hideUsernames: false,

@@ -11,7 +11,7 @@ export type RelayDirectory = Record<string, { read: boolean; write: boolean }>;
 
 export const recommendedReadRelays = new RelaySet(
   safeRelayUrls([
-      "wss://r.mleku.com"
+      "wss://mr.mleku.net"
     // "wss://relay.damus.io/",
     // "wss://nostr.wine/",
     // "wss://relay.snort.social/",
@@ -21,7 +21,7 @@ export const recommendedReadRelays = new RelaySet(
   ]),
 );
 export const recommendedWriteRelays = new RelaySet(
-  safeRelayUrls(["wss://r.mleku.com"
+  safeRelayUrls(["wss://mr.mleku.net"
       // "wss://relay.damus.io/", "wss://nos.lol/", "wss://purplerelay.com/"
   ]),
 );

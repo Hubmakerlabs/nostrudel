@@ -6,6 +6,6 @@ export const SEARCH_RELAYS = safeRelayUrls([
   // "wss://relay.noswhere.com",
   // TODO: requires NIP-42 auth
   // "wss://filter.nostr.wine",
-    "wss://r.mleku.com"
+    "wss://mr.mleku.net"
 ]);
-export const COMMON_CONTACT_RELAY = safeRelayUrl("wss://r.mleku.com") as string;
+export const COMMON_CONTACT_RELAY = safeRelayUrl("wss://mr.mleku.net") as string;

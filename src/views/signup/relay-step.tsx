@@ -38,9 +38,9 @@ const recommendedRelays = [
   // "wss://purplerelay.com",
   // "wss://nostr.bitcoiner.social",
   // "wss://nostr-pub.wellorder.net",
-    "wss://r.mleku.com"
+    "wss://mr.mleku.net"
 ];
-const defaultRelaySelection = new Set(["wss://r.mleku.com"
+const defaultRelaySelection = new Set(["wss://mr.mleku.net"
     // "wss://relay.damus.io", "wss://nos.lol", "wss://welcome.nostr.wine"
 ]);
 
