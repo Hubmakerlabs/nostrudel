@@ -7,7 +7,7 @@ import NostrRequest from "../classes/nostr-request";
 import relayPoolService from "./relay-pool";
 
 /** @deprecated */
-const COUNT_RELAY = "wss://r.mleku.com";
+const COUNT_RELAY = "wss://or.mleku.net";
 
 const RATE_LIMIT = 1000;
 

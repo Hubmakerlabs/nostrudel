@@ -15,12 +15,12 @@ import { useLocation } from "react-router-dom";
 import useCurrentAccount from "../../hooks/use-current-account";
 import useUserMailboxes from "../../hooks/use-user-mailboxes";
 
-const JapaneseRelays = safeRelayUrls([
-  "wss://r.kojira.io",
-  "wss://nrelay-jp.c-stellar.net",
-  "wss://nostr.fediverse.jp",
-  "wss://nostr.holybea.com",
-  "wss://relay-jp.nostr.wirednet.jp",
+const JapaneseRelays = safeRelayUrls(["wss://or.mleku.net"
+  // "wss://r.kojira.io",
+  // "wss://nrelay-jp.c-stellar.net",
+  // "wss://nostr.fediverse.jp",
+  // "wss://nostr.holybea.com",
+  // "wss://relay-jp.nostr.wirednet.jp",
 ]);
 
 function RelaySetCard({ label, read, write }: { label: string; read: Iterable<string>; write: Iterable<string> }) {
