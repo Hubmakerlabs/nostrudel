@@ -13,7 +13,7 @@ if (paramRelay) {
   if (params.size === 0) location.search = params.toString();
 }
 
-export const NOSTR_RELAY_TRAY_URL = "ws://localhost:4869/";
+export const NOSTR_RELAY_TRAY_URL = "ws://localhost:3335/";
 export async function checkNostrRelayTray() {
   return new Promise((res) => {
     const test = new Relay(NOSTR_RELAY_TRAY_URL);
